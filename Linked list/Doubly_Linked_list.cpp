@@ -181,7 +181,7 @@ void printlist(){
         return;
     }
 
-    puts("PRINING FORWARD\n");
+    puts(" >> PRINING FORWARD << \n");
     while(ptr -> next != NULL){
         printf("Element: %d\n", ptr->data);
         ptr = ptr -> next;
@@ -189,7 +189,7 @@ void printlist(){
    
     printf("Element: %d\n", ptr->data);
 
-    puts("PRINTING BACKWARD\n");
+    puts(" >> PRINTING BACKWARD << \n");
     while(ptr->prev != NULL){
         printf("Element: %d\n", ptr->data);
         ptr = ptr -> prev;
