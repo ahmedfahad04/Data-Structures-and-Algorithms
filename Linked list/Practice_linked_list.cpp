@@ -109,17 +109,17 @@ int main()
 
     InsertFront(22);
 
-    // InsertFront(50);
+    InsertFront(50);
 
-    // InsertBack(80);
+    InsertBack(80);
 
     printlist();
 
-    // replace_list(22, 155);
+    replace_list(22, 155);
 
-    // InsertBack(1478);
+    InsertBack(1478);
 
-    // InsertFront(987);
+    InsertFront(987);
 
-    // printlist();
+    printlist();
 }
