@@ -52,8 +52,8 @@ int main()
     }
 
     
-    //selection_sort
-	merge_sort(a,0,n);
+    //merge sort
+    merge_sort(a,0,n);
     
 	
 	cout <<"\nAfter sorting...." << endl;
