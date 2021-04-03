@@ -17,7 +17,7 @@ struct node
     node *left, *right;
 };
 
-struct node *Q[100];
+struct node *Q[100];    //min-priority-queue
 
 struct node *newnode(char info, long int freq, node *leftnode, node *rightnode)
 {
@@ -44,7 +44,7 @@ void Min_heapify(node *ar[], int i)
     if (right < n && ar[smallest]->frequencey > ar[right]->frequencey)
         smallest = right;
 
-    // if smallest is ot the root
+    // if smallest is not the root
     if (smallest != i)
     {
         swap(ar[smallest], ar[i]);
